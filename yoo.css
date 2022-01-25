@@ -1,0 +1,1320 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    margin: 0rem;
+    padding: 0rem;
+    box-shadow: 2px 2px 0.1rem gray;
+}
+
+.navbar-left {
+    display: flex;
+}
+
+.navbar-left2 {
+    display: flex;
+    margin-left: 3rem;
+}
+
+.navbar-left .nav {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.navbar .navbar-left img {
+    width: 6vw;
+    /* width: 100%; */
+}
+
+.navbar-left2 a {
+    text-decoration: none;
+    color: #000;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-weight: bold;
+}
+
+.navbar-left2 a:hover {
+    color: rgb(0, 92, 0);
+    transition: ease-in 0.3s;
+}
+
+.navbar-right{
+    display: flex;
+}
+
+.navbar-right a {
+    text-decoration: none;
+}
+
+/* .navbar-right a:hover {
+
+} */
+
+.navbar-right .right a {
+    color: #000;
+}
+
+.right1 {
+    padding: 4px 20px 4px 20px;
+    border: 1px solid black;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    opacity: 90%;
+    font-weight: bold;
+    color: #000;
+}
+
+.right1:hover {
+    background-color: rgba(156, 156, 156, 0.274);
+}
+
+.right2 {
+    padding: 4px 16px 4px 16px;
+    border: 1px solid black;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    opacity: 90%;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.right2:hover {
+    background-color: rgb(48, 48, 48);
+
+}
+
+.right a:hover {
+    color:rgb(0, 99, 25);
+}
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+input[type=checkbox]{
+    display: none;
+} 
+   /*HAMBURGER MENU*/
+   .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+   }
+
+/* .navbar {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.sidenav {
+    display: none;
+}
+
+.navheaderimage .im{
+    width: 6vw;
+}
+
+.leftnavlinks {
+    display: inline-block;
+    /* justify-content: space-between;
+}
+
+.navlinks {
+    display: inline;
+}
+
+.navheaderimage a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navheaderimage a:hover {
+    color: rgb(0, 99, 25);
+    transition: 0.1s ease;
+    opacity: 90%;
+}
+
+#nav-check {
+    display: none;
+} */
+/* note this for your navbar, you can put it in a new section then  */
+/* .rightnavlinks {
+    display: flex;
+}
+
+.rightnavlinks a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.right1 {
+    padding: 4px 16px 4px 16px;
+    border: 1px solid black;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    opacity: 90%;
+}
+
+.right1:hover {
+    background-color: rgba(156, 156, 156, 0.274);
+}
+
+.right2 {
+    padding: 4px 16px 4px 16px;
+    border: 1px solid black;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    opacity: 90%;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.right2:hover {
+    background-color: rgb(48, 48, 48);
+
+}
+
+.right a:hover {
+    color:rgb(0, 99, 25);
+} */
+
+/* The code above is the code for the navbar  */
+
+/* The code below is for box1  */
+
+
+.box1 {
+    background-color: rgba(190, 245, 255, 0.774);
+    margin:  3rem 0rem;
+    width: 100%;
+}
+
+.starbucks {
+    align-items: center;
+}
+
+.text {
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    text-align: center;
+    margin: 2rem 2rem 0rem 2rem;
+}
+
+.text1 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    margin: 1rem 4rem 2rem 4rem;
+}
+
+.text1 a {
+    color: green;
+    text-decoration: none;
+}
+
+.text1 a:hover {
+    color: green;
+    border-bottom-color: green;
+    border-bottom: solid 1px;
+}
+
+.part1 img {
+    width: 100%;
+    margin-top: 6rem;
+}
+
+/* the code for box 2 starts from here */
+
+.mini img {
+    width: 100%;
+    margin-top: 2rem;    
+    align-items: center ;
+}
+
+.mini-text .text {
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    text-align: center;
+    color: white;
+    opacity: 95%;
+}
+
+.mini-text .text1 {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 50px 20px 50px;
+    font-weight: 400;
+    color: white;
+    opacity: 90%;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+}
+
+.mini-text button {
+   
+    padding: 4px 16px 4px 16px;
+    
+    border: 1px solid #fff;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    opacity: 90%;
+    background-color: rgb(218, 6, 34);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.mini-text button:hover {
+    background-color: rgb(224, 14, 42);
+    border: #fff solid 2px;
+}
+
+.box2 {
+    background-color: rgb(218, 6, 34);
+    width: 100%;
+
+    /* check the code below after  media query */
+
+    padding-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+}
+
+/* the code for box2 ends here */
+
+/* the code for box3 starts here */
+
+.new1 img {
+    width: 100%;
+    margin-left: 0.9rem;   
+}
+
+.new .text {
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: white;
+    opacity: 95%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.yoghurt {
+    display: flex;
+    justify-content: right;
+    
+}
+
+.new .text1 {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 50px 20px 50px;
+    font-weight: 400;
+    color: white;
+    opacity: 90%;
+    
+}
+
+.new button {
+    padding: 4px 16px 4px 16px;
+    border: 2px solid #fff;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    opacity: 90%;
+    background-color: rgb(218, 6, 34);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.new button:hover {
+    background-color: rgb(219, 29, 54);
+    border: solid #fff 3px;
+}
+
+button {
+    border-color: #fff;
+}
+
+.box3 {
+    background-color: rgb(218, 6, 34);
+    width: 100%;
+    margin: 2rem 0rem;
+}
+
+/* the code for box3 above ends here */
+
+/* the code for box4 starts from here */
+
+.chilli img {
+    width: 100%;
+    margin: 0rem 0rem;
+}
+
+.chill.text {
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    text-align: center;
+    color: white;
+    opacity: 95%;
+}
+
+.chill .text1 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    opacity: 90%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.7rem;
+}
+
+.chill button {
+    padding: 4px 16px 4px 16px;
+    border: 2px solid #fff;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    opacity: 90%;
+    background-color: rgb(218, 6, 34);
+    color: white;
+    font-size: 16px;
+    font-weight: 500; 
+}
+
+
+.chill button:hover {
+    background-color: rgb(219, 29, 54);
+    border: solid #fff 3px;
+}
+
+button {
+    border-color: #fff;
+}
+
+.box4 {
+    background-color: rgb(218, 6, 34);
+    width: 100%;
+    padding-left: 0rem;
+}
+
+/* the code for box4 above ends here */
+
+/* the code for box5 starts from here */
+
+.ringi img {
+    width: 100%;
+}
+
+.ring .text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    letter-spacing: 0rem;
+    opacity: 95%;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+.ring .text1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    opacity: 90%;
+    letter-spacing: 0.1rem;
+    font-family: 'Arial', Helvetica, sans-serif;
+    margin: 1.5rem 0rem 2rem 0rem ;
+}
+
+.ring button {
+    padding: 4px 16px 4px 16px;
+    border: 1px solid #fff;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    opacity: 90%;
+    background-color: rgb(16, 56, 53);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ring button:hover {
+    background-color: rgb(16, 56, 53);
+    padding: 2px 12px 2px 12px;
+    font-size: 14px;
+    transition: ease 0.8s;
+}
+
+.box5 {
+    background-color: rgb(16, 56, 53);
+    width: 100%;
+    margin: 2rem 0rem;
+}
+
+/* this is the code for fineglass properties */
+
+.holiday img {
+    width: 100%;
+    margin: 3rem 0rem 0rem 0rem;
+}
+
+.holiday1.text {
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #000;
+    opacity: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.holiday1 .text1 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    opacity: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+}
+
+.holiday1 button {
+    padding: 4px 16px 4px 16px;
+    border: 1px solid #000;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    opacity: 90%;
+    background-color: rgba(190, 245, 255, 0.774);
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.holiday1 button:hover {
+    background-color: rgba(155, 211, 221, 0.774);
+    border: #000 solid 1px;
+    padding: 2px 14px 2px 14px;
+    font-size: 12px;
+    transition: ease 0.8s;
+}
+
+.box6 {
+    background-color: rgba(190, 245, 255, 0.774);
+    width: 100%;
+    margin: 2rem 0rem;
+    padding-left: 0rem;
+}
+/* the code for greenish box5 ends here */
+
+/* the code below is the starbucks' foundation corporation */
+
+.box7 {
+    background-color: rgb(218, 6, 34);
+    padding-bottom: 2rem;
+}
+
+.voted {
+    width: 100%;
+    margin: 2rem 2rem 0rem 0rem;
+}
+
+.voted img {
+    width: 100%;
+}
+
+.vote .text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    letter-spacing: 0rem;
+    opacity: 95%;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+.vote .text1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 545;
+    color: white;
+    opacity: 90%;
+    letter-spacing: 0.1rem;
+    font-family: 'Arial', Helvetica, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.vote button {
+    padding: 4px 16px 4px 16px;
+    border: 2px solid #fff;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    opacity: 90%;
+    background-color: rgb(218, 6, 34);
+    color: white;
+    font-size: 16px;
+    font-weight: 500; 
+}
+
+.vote .but {
+    display: flex;
+    justify-content: center;
+}
+
+.vote button:hover {
+    background-color: rgb(219, 29, 54);
+    border: solid #fff 3px;
+}
+
+button {
+    border-color: #fff;
+} 
+/*the code below is for visa box 8 section nine */
+
+.bonuses img {
+    width: 100%;
+}
+
+.bonuses {
+    margin-top: 2rem;
+}
+
+.bonus .text {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    opacity: 95%;
+    letter-spacing: 0rem;
+    margin: 1rem 3rem 0rem 3rem;
+}
+
+.bonus .text1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    opacity: 90%;
+    margin: 1.5rem 3.5rem 1.5rem 3.5rem;
+    align-items: center;
+}
+
+.bonus button {
+    padding: 4px 16px 4px 16px;
+    border: 1px solid #000;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    opacity: 90%;
+    background-color: rgba(207, 226, 230, 0.774);
+    color: #000;
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+.bonus button:hover {
+    background-color: rgba(215, 237, 241, 0.774);
+    transition: ease-in 0.7s;
+    font-size: 15px;
+    border: 1px white double;
+}
+
+
+.box8 {
+    background-color: rgba(207, 226, 230, 0.774);
+    width: 100%;
+    margin: 2rem 0rem;
+    padding-bottom: 1rem;
+}
+
+/* THIS CODE IS FOR THE UBER CONTENTS */
+
+.uber img {
+    width: 100%;
+}
+
+.uberi .text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    letter-spacing: 0rem;
+    opacity: 95%;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+.uberi .text1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    opacity: 90%;
+    letter-spacing: 0.1rem;
+    font-family: 'Arial', Helvetica, sans-serif;
+    margin: 1.5rem 0rem 2rem 0rem ;
+}
+
+.uberi button {
+    padding: 4px 16px 4px 16px;
+    border: 1px solid #fff;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    opacity: 90%;
+    background-color: rgb(16, 56, 53);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.uberi button:hover {
+    background-color: rgb(16, 56, 53);
+    padding: 2px 12px 2px 12px;
+    font-size: 14px;
+    transition: ease 0.8s;
+}
+
+.box {
+    background-color: rgb(16, 56, 53);
+    width: 100%;
+    margin: 2rem 0rem;
+}
+/* THE CODE FOR UBER ENDS HERE */
+
+.mobile-yes {
+    display: none;
+}
+
+/* .sidenav {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    /* top: 0;
+    left: 0; 
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  } */
+
+/* the code for the media query starts from here */
+
+@media (max-width: 767px) {
+
+    .navbar .navbar-left img {
+        width: 100%;
+        height: 10vh;
+    }
+
+    .navbar {
+        box-shadow: lawngreen;
+    }
+
+    .navbar-left2 {
+        display: none;
+    }
+
+    .rightnavlinks {
+        display: none;
+    }
+
+    .leftnavlinks {
+        display: none;
+    }
+
+    .mobile-no {
+        display: none
+    }
+
+    .mobile-yes {
+        display: block;         
+
+    }
+
+    /* .starbucks {
+        float: right;
+    } */
+
+    .text {
+        font-size: 25px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        text-align: center;
+        margin: 0rem;
+    }
+    
+    .text1 {
+        font-size: 19px;
+        text-align: center;
+        font-weight: 500;
+        margin: 1rem 0rem;
+    }
+
+    
+    .part1 img {
+        width: 100%;
+        margin: 1rem 0rem;
+    }
+
+    .box1 {
+        background-color: rgba(190, 245, 255, 0.774);
+        width: 100%;
+    }
+
+    /* this is the code that handles minimty red box */   
+
+    .mini img {
+        width: 100%;
+        margin: 0rem; 
+        display: inline-block;
+    }
+
+    .mini {
+        display: inline;  
+        float: left;
+    }
+    
+    .mini-text .text {
+        font-size: 36px;
+        font-weight: bolder;
+        letter-spacing: 3px;
+        text-align: center;
+        color: white;
+        opacity: 95%;
+        
+    }
+    
+    .mini-text .text1 {
+        font-size: 22px;
+        font-weight: 400;
+        text-align: center;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        color: white;
+        opacity: 90%;
+    }
+
+    .but {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mini-text button {
+        padding: 4px 16px 4px 16px;
+        border: 1px solid #fff;
+        border-top-left-radius: 19px;
+        border-top-right-radius: 19px;
+        border-bottom-left-radius: 19px;
+        border-bottom-right-radius: 19px;
+        opacity: 90%;
+        background-color: rgb(218, 6, 34);
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .mini-text button:hover {
+        background-color: rgb(224, 14, 42);
+        border: #fff solid 2px;
+    }
+    
+    .box2 {
+        background-color: rgb(218, 6, 34);
+        width: 100%;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .imagine {
+        display: flex;
+        justify-content: right;
+        float: left;
+    }
+
+    /* the code below handles media query for new class */
+
+    .new1 img {
+        width: 100%;
+        margin-left: 0.9rem;  
+    }
+    
+    .new .text {
+        font-size: 36px;
+        font-weight: bolder;
+        letter-spacing: 3px;
+        text-align: center;
+        color: white;
+        opacity: 95%;
+        display: flex;
+        padding: 0rem 0rem 0rem 0rem;
+    }
+    
+    .new .text1 {
+        font-size: 22px;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        font-weight: 400;
+        color: white;
+        opacity: 90%;
+    }
+    
+    .new button {
+        padding: 4px 16px 4px 16px;
+        border: 2px solid #fff;
+        border-top-left-radius: 19px;
+        border-top-right-radius: 19px;
+        border-bottom-left-radius: 19px;
+        border-bottom-right-radius: 19px;
+        opacity: 90%;
+        background-color: rgb(218, 6, 34);
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .new button:hover {
+        background-color: rgb(219, 29, 54);
+        border: solid #fff 3px;
+    }
+    
+    button {
+        border-color: #fff;
+    }
+    
+    .box3 {
+        background-color: rgb(218, 6, 34);
+        width: 100%;
+        margin: 2rem 0rem;
+        padding-bottom: 1rem;
+    }
+
+    /* this is the media query for class chilli and box 4 with alcohol */
+    
+    .chilli{
+        width: 100vw;
+        margin-bottom: 2rem;
+    }
+
+    .chilli img {
+        width: 100%;
+        padding: 0rem 0rem 0rem 0rem;
+    }
+    
+    .chill.text {
+        font-size: 36px;
+        font-weight: bolder;
+        letter-spacing: 8px;
+        text-align: center;
+        color: white;
+        opacity: 95%;
+    }
+    
+    .chill .text1 {
+        font-size: 22px;
+        text-align: center;
+        font-weight: 400;
+        color: white;
+        opacity: 90%;
+        text-align: center;
+        padding: 0rem 0rem 0rem 0rem;
+        margin-left: 0.5rem;
+    }
+    
+    .chill button {
+        padding: 4px 16px 4px 16px;
+        border: 2px solid #fff;
+        border-top-left-radius: 19px;
+        border-top-right-radius: 19px;
+        border-bottom-left-radius: 19px;
+        border-bottom-right-radius: 19px;
+        opacity: 90%;
+        background-color: rgb(218, 6, 34);
+        color: white;
+        font-size: 14px;
+        font-weight: 500; 
+        margin: 1.2rem 0rem 1.7rem 0rem;
+    }
+    
+    
+    .chill button:hover {
+        background-color: rgb(219, 29, 54);
+        border: solid #fff 3px;
+    }
+    
+    button {
+        border-color: #fff;
+    }
+    
+    .box4 {
+        background-color: rgb(218, 6, 34);
+        width: 100%;
+        
+    }
+
+    /* the code for box5 begins here so be cautious */
+    .box5 {
+        width: 100%;
+        padding-bottom: 1rem;
+        margin: 2rem 0rem;
+    }
+
+    /* this is the media query code for box6  */
+    
+    .holiday img {
+        width: 100%;
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+    }
+    
+    .holiday1.text {
+        font-size: 36px;
+        font-weight: bolder;
+        letter-spacing: 6px;
+        text-align: center;
+        color: #000;
+        opacity: 95%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .holiday1 .text1 {
+        font-size: 22px;
+        text-align: center;
+        font-weight: 400;
+        color: #000;
+        opacity: 90%;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 2rem;
+        opacity: 90%;
+    }
+    
+    .but {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .holiday1 button {
+        padding: 4px 16px 4px 16px;
+        border: 1px solid #000;
+        border-top-left-radius: 19px;
+        border-top-right-radius: 19px;
+        border-bottom-left-radius: 19px;
+        border-bottom-right-radius: 19px;
+        opacity: 90%;
+        background-color: rgba(190, 245, 255, 0.774);
+        color: #000;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .holiday1 button:hover {
+        background-color: rgba(155, 211, 221, 0.774);
+        border: #000 solid 1px;
+        padding: 2px 14px 2px 14px;
+        font-size: 12px;
+        transition: ease 0.8s;
+    }
+    
+    .box6 {
+        background-color: rgba(190, 245, 255, 0.774);
+        width: 100%;
+        margin: 2rem 0rem;
+        padding-bottom: 2rem;
+    }
+    
+    /* this is the code for the box holding starbucks' foundation corporation */
+
+    .box7 {
+        background-color: rgb(218, 6, 34);
+        width: 100%;
+        margin: 0rem;
+        box-sizing: border-box;
+        padding-bottom: 0.9rem;
+    }
+    
+    .voted {
+        width: 100%;
+        margin: 1rem 0rem 0rem 0rem;
+    }
+    
+    .voted img {
+        width: 100%;
+        margin: 0rem;
+    }
+    
+    .vote .text {
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        letter-spacing: 0rem;
+        opacity: 95%;
+        padding: 0rem;
+        margin: 1rem 0rem 0rem 0rem;
+        font-family: 'Arial', Helvetica, sans-serif;
+    }
+    
+    .vote .text1 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 400;
+        color: white;
+        opacity: 90%;
+        letter-spacing: 0.1rem;
+        font-family: 'Arial', Helvetica, sans-serif;
+        padding: 0rem;
+        margin: 1rem 0rem;
+    }
+    
+    .vote button {
+        padding: 4px 16px 4px 16px;
+        border: 2px solid #fff;
+        border-top-left-radius: 19px;
+        border-top-right-radius: 19px;
+        border-bottom-left-radius: 19px;
+        border-bottom-right-radius: 19px;
+        opacity: 90%;
+        background-color: rgb(218, 6, 34);
+        color: white;
+        font-size: 14px;
+        font-weight: 500; 
+    }
+    
+    .vote .but {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .vote button:hover {
+        background-color: rgb(219, 29, 54);
+        border: solid #fff 2px;
+        font-size: 12px;
+    }
+
+    /* the code below is for the media query of visa image box contents */
+
+    .bonuses img {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    /* .bonuses {
+        margin-top: 2rem;
+    } */
+    
+    .bonus .text {
+        font-size: 22px;
+        font-weight: bolder;
+        text-align: center;
+        color: black;
+        opacity: 95%;
+        letter-spacing: 0rem;
+        margin: 0px;
+        padding: 0px;
+        /* margin: 1rem 3rem 0rem 3rem; */
+    }
+    
+    .bonus .text1 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 400;
+        color: black;
+        opacity: 90%;
+        margin: 0rem;
+        /* margin: 1.5rem 3.5rem 1.5rem 3.5rem; */
+        /* align-items: center; */
+    }
+    
+    .bonus button {
+        padding: 4px 16px 4px 16px;
+        border: 1px solid #000;
+        border-top-left-radius: 19px;
+        border-top-right-radius: 19px;
+        border-bottom-left-radius: 19px;
+        border-bottom-right-radius: 19px;
+        opacity: 90%;
+        background-color: rgba(207, 226, 230, 0.774);
+        color: #000;
+        font-size: 15px;
+        font-weight: bold; 
+    }
+    
+    .bonus button:hover {
+        background-color: rgba(215, 237, 241, 0.774);
+        transition: ease-in 0.7s;
+        font-size: 14px;
+        border: 1px white double;
+    }
+    
+    
+    .box8 {
+        background-color: rgba(207, 226, 230, 0.774);
+        width: 100%;
+        margin: 2rem 0rem;
+        padding-bottom: 1rem;
+    }
+
+    /* this code ends here */
+    .uber img {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .uberi .text {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        letter-spacing: 0rem;
+        opacity: 95%;
+        font-family: 'Arial', Helvetica, sans-serif;
+        margin: 0px;
+    }
+    
+    .uberi .text1 {
+        font-size: 16px;
+        text-align: center;
+        font-weight: 400;
+        color: white;
+        opacity: 90%;
+        letter-spacing: 0.1rem;
+        font-family: 'Arial', Helvetica, sans-serif;
+        /* margin: 1.5rem 0rem 2rem 0rem ; */
+        margin: 0px;
+    }
+    
+    .uberi button {
+        padding: 4px 16px 4px 16px;
+        border: 1px solid #fff;
+        border-top-left-radius: 19px;
+        border-top-right-radius: 19px;
+        border-bottom-left-radius: 19px;
+        border-bottom-right-radius: 19px;
+        opacity: 90%;
+        background-color: rgb(16, 56, 53);
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .uberi button:hover {
+        background-color: rgb(16, 56, 53);
+        padding: 2px 12px 2px 12px;
+        font-size: 14px;
+        transition: ease 0.8s;
+    }
+    
+    .box {
+        background-color: rgb(16, 56, 53);
+        width: 100%;
+        margin: 2rem 0rem;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+}
+
+@media (width: 900px) {}
+
